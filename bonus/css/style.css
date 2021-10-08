@@ -1,0 +1,42 @@
+/* GENERAL RULES */
+[class*="col-"] {
+    height: 80px;
+}
+
+.container.centered {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row .skin {
+    background-color: #DAA158;
+}
+
+/* HAT */
+[class*="col-"] {
+    background-color: red;
+}
+
+/* FACE */
+.face .hair {
+    background-color: #4A1E12;
+}
+
+.face .eye, .face .beard {
+    background-color: #000;
+}
+
+/* BODYs */
+.body .salopette {
+    background-color: #364EF5;
+}
+
+.body .button {
+    background-color: #EEEA5A;
+}
+
+/* FEET */
+.feet .shoes {
+    background-color: #74574A;
+}
+
