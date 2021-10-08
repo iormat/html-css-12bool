@@ -1,0 +1,32 @@
+/* GENERAL RULES */
+[class*="col-"] {
+    height: 70px;
+    background-color: #2D6AF1;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+.container-fluid {
+    margin-bottom: 50px;
+}
+
+span {
+    line-height: 70px;
+    color: #fbfbfb;
+}
+
+.nested span {
+    line-height: 40px;
+}
+
+/* NEST RULES */
+.row .nest {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.row .nested {
+    height: 40px;
+    border: 2px solid #2D6AF1;
+    background-color: #67DE74;
+}
